@@ -14,6 +14,7 @@
 		67E1BC6028C49F9500B3630D /* TodoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67E1BC5E28C49F9500B3630D /* TodoApp.xcdatamodeld */; };
 		67E1BC6228C49F9800B3630D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E1BC6128C49F9800B3630D /* Assets.xcassets */; };
 		67E1BC6528C49F9800B3630D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E1BC6328C49F9800B3630D /* LaunchScreen.storyboard */; };
+		67E1BC6D28C4BF5800B3630D /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1BC6C28C4BF5800B3630D /* DatabaseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		67E1BC6128C49F9800B3630D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E1BC6428C49F9800B3630D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67E1BC6628C49F9800B3630D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E1BC6C28C4BF5800B3630D /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				67E1BC6328C49F9800B3630D /* LaunchScreen.storyboard */,
 				67E1BC6628C49F9800B3630D /* Info.plist */,
 				67E1BC5E28C49F9500B3630D /* TodoApp.xcdatamodeld */,
+				67E1BC6C28C4BF5800B3630D /* DatabaseHelper.swift */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67E1BC5A28C49F9500B3630D /* ViewController.swift in Sources */,
+				67E1BC6D28C4BF5800B3630D /* DatabaseHelper.swift in Sources */,
 				67E1BC5628C49F9500B3630D /* AppDelegate.swift in Sources */,
 				67E1BC5828C49F9500B3630D /* SceneDelegate.swift in Sources */,
 				67E1BC6028C49F9500B3630D /* TodoApp.xcdatamodeld in Sources */,
